@@ -1,0 +1,440 @@
+ .navbar-toggler{
+     font-size: 2.25rem;
+     border-style: none;
+     color: black;
+     
+ }
+ 
+ .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 3.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 12h22M4 17h22'/%3e%3c/svg%3e");
+ }
+ .menu{
+     font-size: 15px;
+     margin-top: 2rem;
+     color: black;
+     font-weight: bold;
+     padding-top: 5px;
+ }
+ .navbar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 63px;
+ } 
+
+ .carouselfly{
+     position: absolute;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+ }
+ 
+ @media all and (max-width: 500px) { 
+     .navbar{
+        float: left !important;
+        
+     }
+}
+
+@media all and (max-width: 500px) { 
+    .flyimg{
+       margin-left: 17px !important;
+       padding-top: 15px;
+    }
+}
+.carousel-item{
+    height: 32rem;
+    background: #777;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+.carousel-inner{
+    height: 450px;
+}
+
+.firstslide{
+    position: absolute;
+    z-index: 100;
+    opacity: 1050;
+    color: white;
+    width: 20em;
+    height: 5em;
+    text-align: center;
+    margin-top: 3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 6em;
+    margin-right: 5em;
+    justify-content: left;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+}
+
+.secondslide{
+    position: absolute;
+    z-index: 100;
+    opacity: 1050;
+    color: white;
+    width: 34em;
+    height: 9em;
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 34em;
+    margin-right: 5em;
+    justify-content: left;
+    font-size: 19px;
+    font-weight: bold;
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+}
+.thirdslide{
+    position: absolute;
+    z-index: 100;
+    opacity: 1050;
+    color: white;
+    width: 28em;
+    height: 5em;
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 22em;
+    margin-right: 5em;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+}
+.fourthslide{
+    position: absolute;
+    z-index: 100;
+    opacity: 1050;
+    color: white;
+    width: 30em;
+    height: 8em;
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 22em;
+    margin-right: 5em;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 7rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+   border-radius: 20px;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    border-color: white;
+    background-clip: padding-box;
+    border-top: 0px solid transparent !important;
+    border-bottom: 0px solid transparent;
+    opacity: 1.5;
+    transition: opacity .6s ease;
+} 
+.bookflight{
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+    height:250px;
+    width: 100%;
+    margin-top: 23em;
+    position: absolute;
+    margin-left: 8em;
+    z-index: 200;
+    color: white;
+    /* color: #1a2139; */
+}
+.spanbook {
+    position: absolute;
+    font-size: 20px;
+    width: 200px;
+    height: 15px;
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-left: 3rem !important;
+}
+.rowbook{
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    
+}
+.returnrow{
+    height: 70px;
+    width: 100%;
+   
+}
+#my-content{
+   flex: 0 0 auto;
+    width: 25%;
+    margin-top: 0.25rem !important;
+    display: flex !important;
+    --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+}
+
+#butret{
+    display: flex;
+}
+.travel{
+    margin-top: 18px;
+}
+p{
+    color: black;
+}
+h5{
+    color: black;
+}
+.cardbutton{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 19rem !important;
+    margin-left: 15%;
+    list-style: none;
+}
+.footerclass{
+    margin-top: -208px;
+}
+.navclass{
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.iconcarousel{
+    margin-top: 8em;
+}
+
+.navclass1{
+    background: white;
+    position: fixed;
+    margin-left: 50px;
+    margin: 0;
+    padding-right: 104px;
+    height: 62px;
+}
+.flyimg{
+    margin-left: 17px !important;
+    margin-top: 0px;
+    padding-left: 108px;
+ }
+ 
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px) { 
+    .carousel-inner{
+       height: 200px !important;
+    }
+    body{
+        height: 2500px;
+        /* background-color: rgb(228, 176, 208); */
+    }
+    .navclass{
+        background: linear-gradient(0deg,rgba(36, 5, 212, 0.7) 0,rgba(247, 250, 246, 0.986) 100%);
+        height: 220px;
+        width: 400px;
+    }
+    .buttnav{
+        position: absolute;
+        margin-top: 0px;
+        padding-top: 1px;
+    }
+    .navclass1{
+        position: absolute;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 1px;
+    }
+    .firstslide{
+        margin-top: 3em;
+       
+        padding-left: 1px;
+        margin-bottom: 20px;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 15px;
+        height: 7em;
+    }
+    .secondslide{
+        margin-top: 2em;
+       
+        padding-left: 1px;
+        margin-bottom: 20px;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 14px;
+        height: 10em;
+    }
+    .thirdslide{
+        margin-top: 3em;
+        
+        padding-left: 1px;
+        margin-bottom: 20px;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 18px;
+        height: 7em;
+    }
+    .fourthslide{
+        margin-top: 2em;
+       
+        padding-left: 1px;
+        margin-bottom: 20px;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 15px;
+        height: 10em;
+    }
+
+    .carouselfly{
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 600px;
+     }
+
+    .bookflight{
+    background: linear-gradient(0deg,rgba(0,95,158,0.7) 0,rgba(0,54,95,0.7) 100%);
+    /* background-color: rgb(55, 216, 15); */
+    height:250px;
+    width: 100%;
+    margin-top: 5em;
+    position: absolute;
+    margin-left: 0;
+    z-index: 200;
+    color: white;
+    }
+
+    .rowbook{
+    height: 70px;
+    width: 100%;
+    font-size: 7px;
+    margin-left:  -8px;
+    padding-left: 0px;
+    }
+
+    .spanbook {
+        position: absolute;
+        font-size: 10px;
+        width: 100px;
+        height: 15px;
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+         
+    #my-content{
+        margin-left: -150em;
+    }
+    #butret{
+        display: none;
+    }
+    .saerchrow{
+        margin-left: 10px;
+    }
+    .search{
+        margin-top: -39px;
+        margin-left: 30px;
+    }
+    .search1{
+        margin-top: 12px;
+        
+    }
+    .search2{
+        margin-top: 18px;
+        width: 90%;
+    }
+    .travel{
+        margin-top: 35px;
+    }
+    .bookflight{
+        height: 400px;
+    }
+    .travel{
+        margin-top: -41px;
+        height: 89px;
+        width: 100%;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: -1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+    
+    .cardcarousel{
+        margin-top: 17em;
+    }
+    .cardbutton{
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: -1rem !important;
+        margin-left: 15%;
+        list-style: none;
+    }
+    .iconcarousel{
+        margin-top: 14em;
+    }
+
+    .footerclass{
+        margin-top: 39px;
+    }
+    
+}
